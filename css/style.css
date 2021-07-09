@@ -16,8 +16,6 @@ header {
     padding-bottom: 2%;
 }
 
-
-
 fieldset:nth-child(1) label, fieldset:nth-child(1) input, fieldset:nth-child(2) label, fieldset:nth-child(2) input{
     display: block;
     padding: 1%;
@@ -27,7 +25,7 @@ fieldset:nth-child(1) label, fieldset:nth-child(1) input, fieldset:nth-child(2) 
 fieldset:nth-child(3) label, fieldset:nth-child(3) input, fieldset:nth-child(4) label, fieldset:nth-child(4) input {
     display: inline;
     padding: 1%;
-    
+    cursor: pointer;
 }
 
 fieldset:nth-child(1), fieldset:nth-child(2), fieldset:nth-child(3), fieldset:nth-child(4) {
@@ -61,18 +59,22 @@ input {
     transition: all 0.5s ease-in-out;
     outline: none;
     border: 2px white solid;
+    cursor: pointer;
+    
 }
 
 input:hover, input:focus {
     outline: none;
     border: 2px solid rgb(255, 211, 123);
     border-color: rgb(255, 211, 123);
+    
 }
 
 select {
     transition: all 0.5s ease-in-out;
     outline: none;
     border: 2px white solid;
+    cursor: pointer;
 }
 
 select:hover, select:focus {
@@ -86,20 +88,50 @@ button:hover {
 }
 footer {
     background-color: rgb(255, 233, 188);
+    height: 300px;
 }
 
 .icon {
     width: 4%;
+    text-align:end;
 }
 
-.ul {
-    display: inline;
+ul {
+    list-style-type: none;
 }
 
 .botao {
     text-align: center;
+    cursor: pointer;
 }
 
 div:nth-child(1) h1, div:nth-child(1) h2 {
     display: inline;
+}
+
+.footer {
+    width: 30%;
+    float: left;
+}
+
+@keyframes imageRotate {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(360deg) scale(1.1);
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+
+}
+
+.icones {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.icon:hover {
+    animation: imageRotate 3s infinite;
 }
