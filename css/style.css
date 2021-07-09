@@ -3,6 +3,7 @@
 body {
     font-family: 'Noto Serif', serif;
     background-color: rgba(255, 246, 228, 0.473);
+    margin: 0;
 }
 
 header {
@@ -88,7 +89,8 @@ button:hover {
 }
 footer {
     background-color: rgb(255, 233, 188);
-    height: 300px;
+    padding: 2%;
+    height: 20vh;
 }
 
 .icon {
