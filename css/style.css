@@ -6,13 +6,17 @@ body {
 }
 
 header {
+    background-image: url("https://image.flaticon.com/icons/png/512/3082/3082011.png");
+    background-repeat: no-repeat;
+    background-size: 12%;
     background-color: rgb(255, 233, 188);
+    text-align: center;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-img {
-    width: 20%;
-    display: inline;
-}
+
 
 fieldset:nth-child(1) label, fieldset:nth-child(1) input, fieldset:nth-child(2) label, fieldset:nth-child(2) input{
     display: block;
@@ -24,6 +28,10 @@ fieldset:nth-child(3) label, fieldset:nth-child(3) input, fieldset:nth-child(4) 
     display: inline;
     padding: 1%;
     
+}
+
+fieldset:nth-child(1), fieldset:nth-child(2), fieldset:nth-child(3), fieldset:nth-child(4) {
+    margin-bottom: 5%;
 }
 
 .container {
@@ -44,15 +52,38 @@ button {
     padding: 3%;
     margin: 5%;
     background-color: rgb(255, 233, 188);
-    border: 2px solid transparent;
-    border-radius: 10%;
+    border: 2px solid rgb(255, 233, 188);;
+    border-radius: 5rem;
     transition: all 0.5s ease-in-out;
 }
 
-button:hover {
-    border: rgb(255, 223, 160);
+input {
+    transition: all 0.5s ease-in-out;
+    outline: none;
+    border: 2px white solid;
 }
 
+input:hover, input:focus {
+    outline: none;
+    border: 2px solid rgb(255, 211, 123);
+    border-color: rgb(255, 211, 123);
+}
+
+select {
+    transition: all 0.5s ease-in-out;
+    outline: none;
+    border: 2px white solid;
+}
+
+select:hover, select:focus {
+    outline: none;
+    border: 2px solid rgb(255, 211, 123);
+    border-color: rgb(255, 211, 123);
+}
+
+button:hover {
+    border: 2px solid rgb(255, 211, 123);
+}
 footer {
     background-color: rgb(255, 233, 188);
 }
@@ -65,3 +96,10 @@ footer {
     display: inline;
 }
 
+.botao {
+    text-align: center;
+}
+
+div:nth-child(1) h1, div:nth-child(1) h2 {
+    display: inline;
+}
