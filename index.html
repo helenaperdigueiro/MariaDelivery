@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Delivery</title>
+
+    <!-- Favicon -->
+    <link rel="icon shortcut" href="https://image.flaticon.com/icons/png/512/3082/3082011.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+
+        <img src="https://image.flaticon.com/icons/png/512/3082/3082011.png" alt="Logo Maria Delivery">
+
+        <h1>Seja bem vindo(a) ao Maria Delivery!</h1>
+        <h2>Aqui você economiza tempo e dinheiro!</h2>
+
+    </header>
+    <main>
+        <div class="container">
+            <h3>Para começar, realize seu cadastro:</h3>
+            <form>
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Escreva seu nome completo">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="exemplo@email.com.br">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="(00)00000-0000">
+                    <label for="nascimento">Data de nacimento</label>
+                    <input type="date" name="nascimento" id="nascimento">
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Crie sua senha">
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <label for="cep">CEP</label>
+                    <input type="text" name="cep" id="cep" placeholder="00000-000">
+                    <label for="logradouro">Logradouro</label>
+                    <input type="text" name="logradouro" id="logradouro" placeholder="Escreva o nome de seu logradouro">
+                    <label for="numero_da_rua">Numero</label>
+                    <input type="text" name="numero_da_rua" id="numero_da_rua" placeholder="000">
+                    <label for="complemento">Complemento</label>
+                    <input type="text" name="complemento" id="complemento" placeholder="000">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" name="bairro" id="bairro" placeholder="Escreva seu bairro">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="cidade" id="cidade" placeholder="Escreva sua cidade">
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="estado">
+                        <option value="">Selecione seu estado</option>
+                        <option value="distrito_federal">DF</option>
+                        <option value="rio_de_janeiro">RJ</option>
+                        <option value="santa_catarina">SC</option>
+                        <option value="sao_paulo">SP</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Contato</legend>
+                    <p>Como gostaria de ser contatado? (Você pode escolher mais de uma opção)</p>
+                    <input type="checkbox" name="contato_por_ligacao" id="contato_por_ligacao">
+                    <label for="contato_por_ligacao">Ligação</label>
+                    <input type="checkbox" name="contato_por_sms" id="contato_por_sms">
+                    <label for="contato_por_sms">SMS</label>
+                    <input type="checkbox" name="contato_por_whatsapp" id="contato_por_whatsapp">
+                    <label for="contato_por_whatsapp">Whatsapp</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Promoções</legend>
+                    <p>Gostaria de receber nossas promoções por email?</p>
+                    <input type="radio" name="promocao" id="sim" value="sim" checked>
+                    <label for="sim">Sim</label>
+                    <input type="radio" name="promocao" id="nao" value="nao">
+                    <label for="nao">Não</label>
+                </fieldset>
+                <button type="submit">Concluir</button>
+                <button type="reset">Limpar tudo</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+            <ul>
+                <h4>Institucional</h4>
+                <li>Quem Somos</li>
+                <li>Trabalhe Conosco</li>
+                <li>Política de Privacidade e Termos de Uso</li>
+            </ul>
+            <ul>
+                <h4>Central de Atendimento</h4>
+                <li>(11) 3333-1111</li>
+                <li>Meus Pedidos</li>
+                <li>Fale Conosco</li>
+                <li>Formas de Pagamento</li>
+                <li>Trocas e Devoluções</li>
+                <li>Dúvidas Frequentes</li>
+            </ul>
+            <a href="https://www.facebook.com" target="_blank"><img class="icon"
+                    src="https://image.flaticon.com/icons/png/512/174/174848.png" alt="Icone do Facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img class="icon" src="https://image.flaticon.com/icons/png/512/174/174855.png"
+                    alt="Icone do Instagram"></a>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+</body>
+
+</html>

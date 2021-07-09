@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body {
+    font-family: 'Noto Serif', serif;
+    background-color: rgba(255, 246, 228, 0.473);
+}
+
+header {
+    background-color: rgb(255, 233, 188);
+}
+
+img {
+    width: 20%;
+    display: inline;
+}
+
+fieldset:nth-child(1) label, fieldset:nth-child(1) input, fieldset:nth-child(2) label, fieldset:nth-child(2) input{
+    display: block;
+    padding: 1%;
+    width: 95%;
+}
+
+fieldset:nth-child(3) label, fieldset:nth-child(3) input, fieldset:nth-child(4) label, fieldset:nth-child(4) input {
+    display: inline;
+    padding: 1%;
+    
+}
+
+.container {
+    padding: 0% 20%;
+}
+
+#estado {
+    padding: 1%;
+}
+
+.container button {
+    box-align: center;
+}
+
+button {
+    text-align: center;
+    width: 20%;
+    padding: 3%;
+    margin: 5%;
+    background-color: rgb(255, 233, 188);
+    border: 2px solid transparent;
+    border-radius: 10%;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+    border: rgb(255, 223, 160);
+}
+
+footer {
+    background-color: rgb(255, 233, 188);
+}
+
+.icon {
+    width: 4%;
+}
+
+.ul {
+    display: inline;
+}
+
