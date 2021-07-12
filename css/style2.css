@@ -166,7 +166,6 @@ ul {
 .creditos {
     display: flex;
     justify-content: space-between;
-    padding: 3%;
     margin-left: 16%;
     margin-right: 16%;
 }
